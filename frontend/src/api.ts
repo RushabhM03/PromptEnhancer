@@ -2,7 +2,7 @@ import axios from "axios";
 import { PromptParameters, GeneratedPrompt } from "./types";
 
 const client = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://promptenhancer-fjd3.onrender.com/api",
 });
 
 export async function generatePrompt(params: PromptParameters) {
